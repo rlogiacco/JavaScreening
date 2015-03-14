@@ -1,0 +1,23 @@
+5. Opinion I
+Describe a technology trend which you think had the most impact on the developer community
+within the last 2-3 years. How has that impacted you? Are you a proponent or an opponent of this
+trend? Please don't write more than 1500 characters. The less the merrier.
+
+*** ANSWER ***
+Web development has moved from thin client to heavy client, reversing the previous trend which was 
+heavily based on Java components/frameworks like JSF. AngularJS and other similar frameworks have taken a leading role
+in web app clients development and I've learned to appreciate their use: faster development, simpler and faster testing,
+no compilation. I'm a big fan of this simplified approach which helps consistently the separation of concerns and
+system *abilities* (testability, maintainability, scalability, etc...) when used in conjuction to REST and HATEOAS.
+
+6. Opinion II
+Is Java ready for the 21st century? In your opinion, what are the main problems with Java and
+whether other languages have solved them? Please don't write more than 1500 characters. The
+less the merrier.
+
+*** ANSWER ***
+I don't believe Java has any big disadvantage. Other, more recent, languages might have interesting features Java lacks,
+but I don't think those are game-changing features/constructs. JavaScript is getting more attention due to Node.js and the simplicity
+of the language, no strong data typing and such, but I'm not sure I would adopt JavaScript on the server side for a long term 
+business project.
+ 

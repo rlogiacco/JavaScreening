@@ -1,0 +1,19 @@
+3. Tools I
+You have done a git pull, which resulted in some conflicts that you resolved. Git is now showing
+that your have 300 modified files which you need to commit, although you have not touched any of
+them. What happened? If you have not used git, describe why you haven't and whether you like
+your current VCS.
+
+*** ANSWER ***
+The conflicts prevented the automatic merge commit to be executed: the modified files are the files edited by the other members
+of the team after the merge with my local files. I can commit the merge, but a full build is recommended to ensure my merge conflict
+resolution didn't break any of the other changes I just merged.
+
+4. Tools II
+Describe why you hate Maven. Have you used any alternatives? If so, how are they better?
+
+*** ANSWER ***
+I don't hate Maven, I use it every day and I appreciate most of it. Sometimes some plugins are not really stable and the error messages
+are not always clear, but that has became an exception rather than a standard.
+In the past I was quite used to Ant, but I moved to Maven quite early (since version 1.0.2) as a lot less verbose than Ant.
+I've occasionally used Groovy, but I find it slow and I didn't invest enough time to get proficient at its usage.
